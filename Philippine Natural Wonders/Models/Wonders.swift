@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Wonders: Identifiable {
+struct Wonders: Identifiable, Hashable {
     var id = UUID()
     let name: String
     let photo: String
